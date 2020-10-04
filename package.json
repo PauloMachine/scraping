@@ -1,0 +1,16 @@
+{
+  "name": "scrapping",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/controllers/ScrapingController && nodemon src/server"
+  },
+  "dependencies": {
+    "cron": "^1.8.2",
+    "express": "^4.17.1",
+    "puppeteer": "^5.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
