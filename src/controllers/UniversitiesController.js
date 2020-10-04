@@ -10,8 +10,7 @@ module.exports = {
       // Instancia array de universities
       const universities = [];
       // Cria json de BC mapeando o campuses para obter o link
-      infoBritishColumbia.map((info) => {
-         linkBritishColumbia.map((link) => {
+      infoBritishColumbia.map((info) => {linkBritishColumbia.map((link) => {
             if (info.campuses === link.campuses){
                info.link = link.link;
                universities.push(info);
@@ -19,8 +18,7 @@ module.exports = {
          })
       })
       // Cria json de ON mapeando o campuses para obter o link
-      infoOntario.map((info) => {
-         linkOntario.map((link) => {
+      infoOntario.map((info) => {linkOntario.map((link) => {
             if (info.campuses === link.campuses){
                info.link = link.link;
                universities.push(info);
@@ -35,8 +33,7 @@ module.exports = {
       // Instancia array de universities
       const universities = [];
       // Cria json de BC mapeando o campuses com o link
-      infoBritishColumbia.map((info) => {
-         linkBritishColumbia.map((link) => {
+      infoBritishColumbia.map((info) => {linkBritishColumbia.map((link) => {
             if (info.campuses === link.campuses){
                info.link = link.link;
                universities.push(info);
@@ -51,8 +48,7 @@ module.exports = {
       // Instancia array de universities
       const universities = [];
       // Cria json de ON mapeando o campuses com o link
-      infoOntario.map((info) => {
-         linkOntario.map((link) => {
+      infoOntario.map((info) => {linkOntario.map((link) => {
             if (info.campuses === link.campuses){
                info.link = link.link;
                universities.push(info);
