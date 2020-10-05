@@ -135,6 +135,7 @@ module.exports = {
                      if (title === null) {
                         title = "Not found";
                      }
+                     
                      // Retorna titulo
                      universities[index] = {...universities[index], title}
                   });
