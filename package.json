@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node src/server",
-    "build": "node src/server"
+    "start": "node src/server.js"
   },
   "dependencies": {
     "axios": "^0.20.0",
