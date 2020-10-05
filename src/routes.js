@@ -1,12 +1,10 @@
 const { Router } = require('express');
+const routes = new Router();
 
 // Controller
 const UniversitiesController = require("./controllers/UniversitiesController");
 
-const routes = new Router();
-
+// Rotas
 routes.get("/", UniversitiesController.findAll);
-routes.get("/universities/bc", UniversitiesController.findbyBritishColumbia);
-routes.get("/universities/on", UniversitiesController.findbyOntario);
 
 module.exports = routes;
